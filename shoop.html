@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5843ede99b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav id="head" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a id="shooping" class="navbar-brand" href="#">Shopping-card</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Account
+              </a>
+                    <div id="child" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Profil</a>
+                        <a class="dropdown-item" href="#">Setting</a>
+                        <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img id="img1" src="https://www.waldengalleria.com/wp-content/uploads/sites/3/2019/11/Shopping_Blog-Feature-Image.jpg" class="d-block w-100" alt="img">
+            </div>
+            <div class="carousel-item">
+                <img id="img2" src="https://t1.ldh.be/jToMjyX3U4y3I4eIqIhCdH4yVSA=/620x310/5dcc3baaf20d5a0c46c48cef.jpg" class="d-block w-100" alt="img">
+            </div>
+            <div class="carousel-item">
+                <img id="img3" src="https://content.skyscnr.com/m/36feac5c9f3053bf/webimage-shutterstock_1403326268.jpg" class="d-block w-100" alt="img">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div id="shppng">
+        <i class="fas fa-shopping-cart"></i>
+        <p>Shopping Bag total:</p>
+        <span id="somme">0</span>
+    </div>
+    <div id="row1" class="row">
+        <div id="id6" class="col">
+            <button onclick="supp()" id="boutton-1">X</button>
+        </div>
+        <div id="id7" class="col">
+            <img id="img-1" src="https://crossshopperbiz.blob.core.windows.net/thumb/Chaussure-270-pour-Homme1561283797886.jpg" alt="img">
+        </div>
+        <div id="id8" class="col" id="sbedri">
+            <span>sbedri</br> white</span>
+
+        </div>
+        <div id="plus" class="col">
+            <button id="boutton-2">+</button>
+            <span id="quantité">0</span>
+            <button id="boutton-4">-</button>
+        </div>
+        <div id="id9" class="col">
+            <p id='somme-unique1'>0</p>
+
+        </div>
+    </div>
+    <div id="row2" class="row">
+        <div id="buuuuuut" class="col">
+            <button onclick="supp2()" id="butx">X</button>
+        </div>
+        <div class="col">
+            <img id="image2" style="width: 150px;" src="https://www.cdiscount.com/pdt2/7/4/3/1/300x300/yon2009813865743/rw/botte-chaussette-de-noel-pour-sapin-avec-prenom-pe.jpg" alt="img">
+        </div>
+        <div id="paragraphe1" class="col">
+            <br>classet</br>tacos</p>
+        </div>
+        <div id="bouttonss" class="col">
+            <button id="boutton-5">+</button>
+            <span id="quantité-2">0</span>
+            <button id="boutton-6">-</button>
+        </div>
+        <div id="id10" class="col">
+            <p id="somme-unique2">0</p>
+        </div>
+    </div>
+    <div id="row3" class="row">
+        <div id="id1" class="col">
+            <button onclick="supp3()">X</button>
+        </div>
+        <div id="id2" class="col">
+            <img style="width: 150px;" src="https://images-na.ssl-images-amazon.com/images/I/712F-S%2BcK6L._AC_SY355_.jpg" alt="imf">
+        </div>
+        <div id="id3" class="col">
+            Kartaba </br>brown
+        </div>
+        <div id="id4" class="col">
+            <button id="boutton-7">+</button>
+            <span id="quantité-3">0</span>
+            <button id="boutton-8">-</button>
+        </div>
+        <div id="id5" class="col">
+            <p id="somme-unique3">0</p>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        let quant = document.getElementById("quantité")
+        let cpt = 0
+        let cpt2 = 0
+        let cpt3 = 0
+        let som = document.getElementById('somme-unique1')
+        let boutton = document.getElementById('boutton-2')
+        let boutton2 = document.getElementById('boutton-4')
+
+        let boutton3 = document.getElementById('boutton-5')
+        let quant2 = document.getElementById('quantité-2')
+        let boutton4 = document.getElementById('boutton-6')
+        let prix2 = 0
+        let som2 = document.getElementById('somme-unique2')
+        let boutton5 = document.getElementById('boutton-7')
+        let boutton6 = document.getElementById('boutton-8')
+        let quant3 = document.getElementById('quantité-3')
+        let som3 = document.getElementById('somme-unique3')
+        let prix3 = 0
+        let total = document.getElementById('somme')
+        let row = document.getElementById('row1')
+        let row2 = document.getElementById('row2')
+        let row3 = document.getElementById('row3')
+
+
+
+
+
+        boutton.addEventListener('click', (e) => {
+            e.preventDefault()
+            add()
+
+        })
+
+        boutton2.addEventListener('click', (e) => {
+            e.preventDefault()
+            moins()
+
+
+        })
+        boutton3.addEventListener('click', (e) => {
+            e.preventDefault()
+            add2()
+        })
+        boutton4.addEventListener('click', (e) => {
+            e.preventDefault()
+            moins2()
+        })
+        boutton5.addEventListener('click', (e) => {
+            e.preventDefault()
+            add3()
+        })
+        boutton6.addEventListener('click', (e) => {
+            e.preventDefault()
+            moins3()
+        })
+
+
+
+
+        function add() {
+            let a = quant.innerHTML
+            a = parseInt(a) + 1
+            quant.innerHTML = a.toString()
+            let b = som.innerHTML
+            b = parseInt(b) + 60
+            som.innerHTML = b.toString()
+            let c = total.innerHTML
+            c = parseInt(c) + 60
+            total.innerHTML = c.toString()
+
+
+        }
+
+        function moins() {
+
+            let a = quant.innerHTML
+            if (a > 0) {
+                a = parseInt(a) - 1
+                quant.innerHTML = a.toString()
+                let b = som.innerHTML
+                b = parseInt(b) - 60
+                som.innerHTML = b.toString()
+                let c = total.innerHTML
+                c = parseInt(c) - 60
+                total.innerHTML = c.toString()
+            }
+
+
+
+        }
+
+        function add2() {
+            let a = quant2.innerHTML
+            a = parseInt(a) + 1
+            quant2.innerHTML = a.toString()
+            let b = som2.innerHTML
+            b = parseInt(b) + 5
+            som2.innerHTML = b.toString()
+            let c = total.innerHTML
+            c = parseInt(c) + 5
+            total.innerHTML = c.toString()
+
+
+        }
+
+        function moins2() {
+            let a = quant2.innerHTML
+            if (a > 0) {
+                a = parseInt(a) - 1
+                quant2.innerHTML = a.toString()
+                let b = som2.innerHTML
+                b = parseInt(b) - 5
+                som2.innerHTML = b.toString()
+                let c = total.innerHTML
+                c = parseInt(c) - 5
+                total.innerHTML = c.toString()
+            }
+        }
+
+        function add3() {
+            let a = quant3.innerHTML
+            a = parseInt(a) + 1
+            quant3.innerHTML = a.toString()
+            let b = som3.innerHTML
+            b = parseInt(b) + 80
+            som3.innerHTML = b.toString()
+            let c = total.innerHTML
+            c = parseInt(c) + 80
+            total.innerHTML = c.toString()
+
+
+        }
+
+        function moins3() {
+            let a = quant3.innerHTML
+            if (a > 0) {
+                a = parseInt(a) - 1
+                quant3.innerHTML = a.toString()
+                let b = som3.innerHTML
+                b = parseInt(b) - 80
+                som3.innerHTML = b.toString()
+                let c = total.innerHTML
+                c = parseInt(c) - 80
+                total.innerHTML = c.toString()
+            }
+        }
+
+        function supp() {
+            let s = total.innerHTML
+            let ss = som.innerHTML
+            s = parseInt(s)
+            ss = parseInt(ss)
+            let x = s - ss
+            total.innerHTML = x.toString()
+            row1.remove()
+        }
+
+
+
+        function supp2() {
+            let s = total.innerHTML
+            let ss = som2.innerHTML
+            s = parseInt(s)
+            ss = parseInt(ss)
+            let x = s - ss
+            total.innerHTML = x.toString()
+            row2.remove()
+        }
+
+        function supp3() {
+            let s = total.innerHTML
+            let ss = som3.innerHTML
+            s = parseInt(s)
+            ss = parseInt(ss)
+            let x = s - ss
+            total.innerHTML = x.toString()
+            row3.remove()
+        }
+    </script>
+</body>
+
+</html>

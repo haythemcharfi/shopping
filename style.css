@@ -1,0 +1,171 @@
+#navbarDropdownMenuLink {
+    margin-left: 800px;
+    color: green;
+}
+
+#child {
+    margin-left: 800px;
+}
+
+#shooping {
+    color: green;
+    font-size: 28px;
+}
+
+#img1 {
+    height: 500px;
+}
+
+#img2 {
+    height: 500px;
+}
+
+#head {
+    background-color: #353A40
+}
+
+#grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+#img3 {
+    height: 500px;
+}
+
+#boutton-1 {
+    margin-top: 70px;
+    margin-left: 125px;
+}
+
+#img-1 {
+    width: 217px
+}
+
+#boutton-2 {
+    border-radius: 50%;
+    background-color: green;
+}
+
+#boutton-3 {
+    border-radius: 50%;
+    width: 20px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+#boutton-4 {
+    border-radius: 50%;
+    background-color: green;
+}
+
+#boutton-5 {
+    border-radius: 50%;
+    background-color: green;
+}
+
+#boutton-6 {
+    border-radius: 50%;
+    background-color: green;
+}
+
+#boutton-7 {
+    border-radius: 50%;
+    background-color: green;
+}
+
+#boutton-8 {
+    border-radius: 50%;
+    background-color: green;
+}
+
+#shppng {
+    background-color: #353A40;
+    height: 93ox;
+    height: 80px;
+    padding-left: 210px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+}
+
+#plus {
+    margin-top: 60px;
+    margin-left: -90px;
+    padding-left: 37px;
+    left: 21px;
+}
+
+#id {
+    display: flex;
+}
+
+#row1 {
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-around;
+    width: 1500px;
+}
+
+#buuuuuut {
+    margin-top: 76px;
+    margin-left: 122px;
+    right: -3px
+}
+
+#paragraphe1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 28px;
+}
+
+#bouttonss {
+    margin-top: 60px;
+    margin-right: 21px;
+}
+
+#id1 {
+    margin-top: 65px;
+    margin-left: 119px;
+    right: -7px;
+}
+
+#id3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+#id4 {
+    margin-top: 81px;
+}
+
+#id5 {
+    margin-top: 77px;
+}
+
+#id10 {
+    margin-top: 56px;
+}
+
+#row2 {
+    width: 1384px;
+}
+
+#row3 {
+    width: 1394px;
+}
+
+#id9 {
+    margin-top: 64px;
+    margin-right: 63px;
+    right: 10px
+}
+
+#id8 {
+    margin-top: 49px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 65px;
+}
